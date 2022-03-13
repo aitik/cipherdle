@@ -1,0 +1,38 @@
+.keyboard-rows{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.row{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+button{
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    background: #818384;
+    color: white;
+    padding: 22px 18px;
+    border: none;
+    text-transform: uppercase;
+}
+.key-correct{
+    background: #538d4e;
+    color: #fff;
+}
+
+.key-present{
+    background: #b59f3b;
+    color: #fff;
+}
+
+.key-absent{
+    background: #3a3a3c;
+    color: #fff;
+}
